@@ -94,6 +94,7 @@ public class Challenge01 {
 					money = money - kake;
 					System.out.println("！！！ションベン！！！");
 					System.out.println("╰⋃╯╰⋃╯おちんちんランド開園╰⋃╯╰⋃╯");
+					System.out.println("( ◜◡ )っ✂╰⋃╯");
 					i = i + 1;
 				}
 
