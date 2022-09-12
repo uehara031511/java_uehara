@@ -143,17 +143,17 @@ public class Challenge01 {
 				i = 0;
 				if (money >= 5000) {
 					i = 100;
-					System.out.println("クリア");
+					System.out.println("クリアです");
 				}
 				if (money <= 0) {
 					i = 100;
-					System.out.println("ゲームオーバー");
+					System.out.println("ゲームオーバーです");
 				}
 
 			}
 
 		}
-		System.out.println("終了");
+		System.out.println("終了します");
 
 	}
 
