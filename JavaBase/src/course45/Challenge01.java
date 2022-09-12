@@ -92,7 +92,8 @@ public class Challenge01 {
 
 				if (i == 0 && c == 7) {
 					money = money - kake;
-					System.out.println("ションベン！！！");
+					System.out.println("！！！ションベン！！！");
+					System.out.println("╰⋃╯╰⋃╯おちんちんランド開園╰⋃╯╰⋃╯");
 					i = i + 1;
 				}
 
