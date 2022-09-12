@@ -18,8 +18,9 @@ public class Challenge01 {
 			i = 0;
 			System.out.println("掛け金を入力");
 			int kake = stdIn.nextInt();
-			if (kake > money) {
+			if (kake > money || kake == 0) {
 				System.out.println("掛け金を入力しなおしてください");
+				System.out.println("");
 			} else {
 				int a = random.nextInt(6) + 1;
 				int b = random.nextInt(6) + 1;
@@ -95,7 +96,7 @@ public class Challenge01 {
 					i = i + 1;
 				}
 
-				if (i == 0 && a != b && b != c && a != c && c != 7) {
+
 					if (a == 1 && b == 2 && c == 3) {
 						money = money - kake * 2;
 						System.out.println("ヒフミ");
@@ -126,6 +127,9 @@ public class Challenge01 {
 						System.out.println("ヒフミ");
 						i = i + 1;
 				}
+
+
+					if (i == 0 && a != b && b != c && a != c && c != 7) {
 					money = money - kake;
 					System.out.println("役なし");
 					i = i + 1;
